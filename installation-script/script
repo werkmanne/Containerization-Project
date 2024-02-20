@@ -3,7 +3,7 @@ sudo su
 yum update -y
 yum install -y httpd
 cd /var/www/html
-wget https://github.com/werkmanne/YT.Tutorial.git
+wget https://github.com/werkmanne/fitapp-website/archive/refs/heads/main.zip
 unzip main.zip
 unzip /var/www/html/fitapp-website-main/fitapp-webstie.zip
 rm -rf main.zip fitapp-website-main
