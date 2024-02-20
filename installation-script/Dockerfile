@@ -3,7 +3,7 @@ RUN yum update -y
 RUN yum install -y wget
 RUN yum install unzip -y
 RUN yum install -y httpd
-WORKDIR cd /var/www/html
+WORKDIR /var/www/html
 RUN wget https://github.com/werkmanne/fitapp-website/archive/refs/heads/main.zip
 RUN unzip main.zip
 RUN unzip /var/www/html/fitapp-website-main/fitapp-webstie.zip
